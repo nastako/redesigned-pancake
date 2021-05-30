@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="Gives you a random cognitive bias">
+<meta name="keywords" content="life, psychology, cognitive, bias, self-improvement">
+<title>Random Cognitive Bias</title>
+<link rel="canonical" href="https://BenWiederhake.github.io/randombias/">
+<link rel="apple-touch-icon" href="favicon.png">
+<link rel="shortcut icon" href="favicon.png">
+<link rel="stylesheet" href="bootstrap_4.5.1.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+</head>
+<body>
+
+<main class="container my-5 pb-5" style="max-width: 50rem;" id="content">
+
+<h1>Random Cognitive Bias</h1>
+
+<p class="mt-5">Your cognitive bias of the day:</p>
+
+<h2 id="bias-name">Unloaded Bias name</h2>
+
+<blockquote class="blockquote">
+  <p class="mb-0" id="bias-content">The unloaded bias hasn't loaded yet.</p>
+  <footer class="blockquote-footer"><a id="bias-wikilink" href="https://en.wikipedia.org/wiki/List_of_cognitive_biases">Wikipedia (click for more)</a></footer>
+</blockquote>
+
+<nav class="fixed-bottom bg-light d-flex p-2 flex-row flex-wrap justify-content-between align-items-center">
+  <div class="mx-2">
+    <img src="swing-small.png">
+  </div>
+
+  <div class="mx-2">
+    <a href="https://github.com/BenWiederhake/randombias/">Repository</a> |&nbsp;<a href="https://help.github.com/articles/github-privacy-statement/">Data Protection</a>
+    |&nbsp;<a href="LICENSE">License Website (Unlicense)</a> |&nbsp;<a href="https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">License Content (CC-BY-SA)</a>
+  </div>
+</nav>
+
+<p class="mt-5">Wanna <a onclick="loadRandomBias()" href="#">try again</a>?</p>
+
+<p class="mt-5 small text-muted">(I find the <a href="https://en.wikipedia.org/wiki/List_of_cognitive_biases">list of cognitive biases on Wikipedia</a> to be too daunting to even begin reading. So instead, I'll just have a look at this website every once in a while.)</p>
+
+<script src="app.js"></script>
+</body>
+</html>
